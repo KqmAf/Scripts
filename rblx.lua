@@ -1,4 +1,3 @@
-
 gg.alert(" Selamün aleyküm   kardeş"," Aleyküm selam ")
 
 gg.sleep(300)
@@ -317,3 +316,4 @@ while true do
     HOME()
   end
   end
+--dokunma buna
