@@ -10,7 +10,7 @@ gg.sleep(200)
 
 HOME = 1
 function HOME()
-MN = gg.multiChoice({
+MN = gg.choice({
 'Anti ban',--1
 ' Kuş gibi uç ',--2
 'Kuş gibi uçmak kapalı',--3
