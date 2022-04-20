@@ -30,7 +30,9 @@ MN = gg.choice({
  ' XRay modu',--18
 ' XRay kapalı',--19
 ' 20 dk kadar afk olmak',--20
- ' çıkış',--21
+ 'Telefon lag kaldırıcı',--21
+'telefon lag kaldırıcı kapalı',--22
+'çıkış',--23
 }, nil, nil)
 if MN == nil then else 
 if MN == 1 then MN1() end
@@ -54,7 +56,8 @@ if MN == 17 then MN17() end
 if MN == 18 then MN18()end
 if MN == 19 then MN19() end
 if MN == 20 then MN20()end
-if MN == 21 then MN21() end
+if MN == 22 then MN22()end
+if MN == 23 then Çık() end
 
 end
 PUBGMH = -1
@@ -297,9 +300,20 @@ gg.setSpeed(1)
 gg.setVisible(false)
 gg.setSpeed(10000)
 end
-
---dokunman buna
 function MN21()
+gg.setSpeed(1)
+end
+function MN22()
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber(5, gg.TYPE_DWORD)
+gg.getResults(650)
+gg.editAll(1, gg.TYPE_DWORD)
+gg.clearResults()
+end
+- -dokunman buna
+function Çık()
 
 gg.alert("【🛡️@YuzasifXd")
 
