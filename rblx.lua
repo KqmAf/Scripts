@@ -212,7 +212,6 @@ gg.processResume()
 end
 
 function MN10()
-gg.alert(" Deneme")
 gg.setVisible(false)
 gg.alery(" tabi efendim yok ediyorum")
 gg.clearResults()
