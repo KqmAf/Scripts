@@ -1,3 +1,4 @@
+-- dec attın mi lağ
 gg.alert(" Selamün aleyküm   kardeş"," Aleyküm selam ")
 
 gg.sleep(300)
